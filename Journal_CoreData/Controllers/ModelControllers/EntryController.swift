@@ -31,6 +31,13 @@ class EntryController {
         let entries = (try? CoreDataStack.context.fetch(self.fetchRequest)) ?? []
         self.entries = entries
     }
+    
+    func updateEntry(entry: Entry, newTitle: String, newBody: String, newTimestamp: Date = Date()){
+        entry.title = newTitle
+        entry.bodytext = newBody
+        entry.timestamp = newTimestamp
+        CoreDataStack.saveContext()
+    }
   
     
     

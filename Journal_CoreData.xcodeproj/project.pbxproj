@@ -16,6 +16,9 @@
 		C923F03E280E1FF900367555 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923F03D280E1FF900367555 /* CoreDataStack.swift */; };
 		C923F040280E20F400367555 /* ENtry+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923F03F280E20F400367555 /* ENtry+Convenience.swift */; };
 		C923F042280E223400367555 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923F041280E223400367555 /* EntryController.swift */; };
+		C923F044280E26AF00367555 /* EntryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923F043280E26AF00367555 /* EntryListViewController.swift */; };
+		C923F046280E276500367555 /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923F045280E276500367555 /* EntryTableViewCell.swift */; };
+		C923F048280E2C9F00367555 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C923F047280E2C9F00367555 /* EntryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		C923F03D280E1FF900367555 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		C923F03F280E20F400367555 /* ENtry+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ENtry+Convenience.swift"; sourceTree = "<group>"; };
 		C923F041280E223400367555 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		C923F043280E26AF00367555 /* EntryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListViewController.swift; sourceTree = "<group>"; };
+		C923F045280E276500367555 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
+		C923F047280E2C9F00367555 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		C923F03A280E1F4400367555 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C923F043280E26AF00367555 /* EntryListViewController.swift */,
+				C923F045280E276500367555 /* EntryTableViewCell.swift */,
+				C923F047280E2C9F00367555 /* EntryDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -203,11 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C923F046280E276500367555 /* EntryTableViewCell.swift in Sources */,
 				C923F042280E223400367555 /* EntryController.swift in Sources */,
 				C923F020280E1EBA00367555 /* AppDelegate.swift in Sources */,
 				C923F02A280E1EBA00367555 /* Journal_CoreData.xcdatamodeld in Sources */,
 				C923F022280E1EBA00367555 /* SceneDelegate.swift in Sources */,
 				C923F040280E20F400367555 /* ENtry+Convenience.swift in Sources */,
+				C923F044280E26AF00367555 /* EntryListViewController.swift in Sources */,
+				C923F048280E2C9F00367555 /* EntryDetailViewController.swift in Sources */,
 				C923F03E280E1FF900367555 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
